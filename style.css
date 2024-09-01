@@ -58,7 +58,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 170px;
+    width: 180px;
     font-weight: 300;
     &:hover{
         cursor: pointer;
