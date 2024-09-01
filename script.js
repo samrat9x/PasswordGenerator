@@ -22,6 +22,12 @@ function createPassword(){
 function copy(){
     passwordBox.select();
     document.execCommand('copy');
+    document.querySelector('i').removeAttribute('class');
+    document.querySelector('i').setAttribute('class','fa-solid fa-check');
+    setTimeout(e=>{
+      document.querySelector('i').removeAttribute('class');
+      document.querySelector('i').setAttribute('class','fa-regular fa-copy');
+    },1000)
 }
 
 window.addEventListener('click',e=>{
