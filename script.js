@@ -27,7 +27,7 @@ function copy(){
     setTimeout(e=>{
       document.querySelector('i').removeAttribute('class');
       document.querySelector('i').setAttribute('class','fa-regular fa-copy');
-    },1000)
+    },2000)
 }
 
 window.addEventListener('click',e=>{
