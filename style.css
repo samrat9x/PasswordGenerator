@@ -27,7 +27,7 @@ body{
 }
 .fa-copy{
     font-size: 24px;
-    color: #019f55;
+    color: #002339;
     &:hover{
         cursor: pointer;
     }
